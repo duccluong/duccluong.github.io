@@ -212,8 +212,7 @@ header{
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-bottom: 70px;
-    margin-top: 30px;
+    padding: 64px 0px;
 }
 /* .back::before{
     content: "";
@@ -378,6 +377,9 @@ box::after{
     position: relative;
     z-index: 10;
     padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    
 }
 .mycontanier .box .box__content h2{
     font-size: 2em;
@@ -400,7 +402,13 @@ box::after{
     color: #fff;
     margin-bottom: 10px;
     line-height: 1.4em;
-    
+    text-align: left;
+}
+.heading__content{
+    text-align: center !important;
+}
+.text__content{
+    text-align: center !important;
 }
 .list__skill{
     display: flex;
@@ -612,5 +620,17 @@ box::after{
     letter-spacing: 1.5px;
     color: white;
     background-color: transparent;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+    border-top: solid 2px #fff;
+}
+.heading__footer, .title__footer{
+    font-size: 20px;
+    color: #349db3;
 }
 
