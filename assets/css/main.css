@@ -553,17 +553,21 @@ box::after{
 }
 .card{
     width: 300px;
-    height: 170px;
+    height: 164px;
     /* padding: 0rem 0rem 2rem; */
     /* background-color: #fff; */
     position: relative;
      display: flex; 
      flex-direction: column;
-     align-items: flex-end; 
+     align-items: center; 
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
     transition: 0.5s ease-in-out;
     margin-right: 15px;
   
+}
+.card h3{
+    color: #fff;
+    font-weight: 500;
 }
 .card:hover{
     transform: translateY(20px);
@@ -598,7 +602,7 @@ box::after{
     transform: translateY(30px);
     transition: 0.5s all;
     opacity: 0;
-    top: 20%;
+    top: 8%;
     left: 4%;
     text-align: center;
 }
