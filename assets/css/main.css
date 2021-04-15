@@ -165,7 +165,7 @@ header{
 .sci{
     z-index: 2;
     position: absolute;
-    bottom: 40px;
+    bottom: -140px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -189,7 +189,7 @@ header{
     border: 2px solid#fff;
     border-radius: 50%;
 }
-.sci li a img{
+.social__img{
     
     filter: inherit(1);
      transform: scale(0.6);  
@@ -262,7 +262,7 @@ header{
     color: #ed325f;
     transition: 0.5s;
 }
-.introduce_aboutme img{
+.about__img{
     width: 400px;
     max-width: 100%;
     margin-right: 20px;
@@ -640,7 +640,7 @@ footer{
 }
 
 /* Table */
-@media(min-width :740px) and (max-width:1024px) {
+@media(min-width :768px) and (max-width:1024px) {
     .about__img{
         max-width: 300px;
         margin-left: 20px;
@@ -652,22 +652,25 @@ footer{
         /* margin-left: -72px; */
     }
     .myimg{
-        margin-left:50px;
+        margin-right: -108px;
         width: 300px;
-
+        margin-top: 174px;
     }
    
     .about__text{
-        font-size: 13px;
+        font-size: 16px;
     }
     .myinfo h1{
         font-size: 20px;
     }
     .list__skill{
-        font-size: 13px;
+        font-size: 17px;
     }
     .fab{
-        font-size: 13px;
+        font-size: 17px;
+    }
+    .heading__content{
+        font-size: 18px;
     }
     .mycontanier{
         display: flex;
@@ -683,18 +686,62 @@ footer{
         margin-top: -197px;
     }
     .sci{
-        bottom: 175px;
+        bottom: -140px;
+        margin-left: 0px;
     }
     .box{
         width: 350px;
     }
     .content_selection{
-       margin-top: -150px;
+       margin-top: 83px;
+    }
+    .contentBX{
+        font-size: 14px;
+    }
+    .content{
+        margin-left: -81px;
+        margin-top: 174px;
     }
 }
-@media (max-width : 740){
-    .items {
-        color: red;
+@media(max-width :764px){
+    .contentBX{
+        font-size: 6px;
+        left : -50px
+        
+    }
+    .myimg{
+        width: 250px;
+        right: 55px;
+    }
+    .sci{
+        left: -57px;
+    }
+    .social__img{
+        width: 28px;
+    }
+    .sci li a {
+        width: 65%;
+        height: 65%;
+    }
+    .about__text{
+        font-size: 10px;
+    }
+    .about__img{
+        width: 250px;
+        height: 250px;
+    }
+    .myinfo{
+        margin-left: 9px;
+    }
+    .myinfo h1 {
+        font-size: 18px;
+    }
+
+    .mycontanier{
+    
+    }
+    .box__content{
+        width: 100%;
     }
 }
 
