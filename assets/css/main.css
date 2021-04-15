@@ -264,6 +264,7 @@ header{
 }
 .introduce_aboutme img{
     width: 400px;
+    max-width: 100%;
     margin-right: 20px;
     z-index: 2;
     border-radius: 50%;
@@ -636,5 +637,64 @@ footer{
 .heading__footer, .title__footer{
     font-size: 20px;
     color: #349db3;
+}
+
+/* Table */
+@media(min-width :740px) and (max-width:1024px) {
+    .about__img{
+        max-width: 300px;
+        margin-left: 20px;
+    }
+    .myinfo{
+        margin-left: 20px;
+    }
+    .contentBx{
+        /* margin-left: -72px; */
+    }
+    .myimg{
+        margin-left:50px;
+        width: 300px;
+
+    }
+   
+    .about__text{
+        font-size: 13px;
+    }
+    .myinfo h1{
+        font-size: 20px;
+    }
+    .list__skill{
+        font-size: 13px;
+    }
+    .fab{
+        font-size: 13px;
+    }
+    .mycontanier{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .header{
+        margin-top: 192px;
+    }
+    #banner{
+        margin-top: -197px;
+    }
+    .sci{
+        bottom: 175px;
+    }
+    .box{
+        width: 350px;
+    }
+    .content_selection{
+       margin-top: -150px;
+    }
+}
+@media (max-width : 740){
+    .items {
+        color: red;
+    }
 }
 
