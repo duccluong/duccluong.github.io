@@ -743,11 +743,12 @@ footer{
         font-size: 10px;
     }
     .about__img{
-        width: 220px;
-        height: 220px;
+        width: 180px;
+        height: 180px;
     }
     .myinfo{
-        margin-left: 9px;
+        margin-left: -13px;
+        margin-top:-8px ;
     }
     .myinfo h1 {
         font-size: 10px;
@@ -792,10 +793,6 @@ footer{
     #aboutme{
         margin-top: -239px;
     }
-    .myinfo{
-        margin-top: -8px;
-    }
-
 }
 
 
