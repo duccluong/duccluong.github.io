@@ -70,6 +70,7 @@ header{
     z-index: 1000;
     width: 100%;
     margin-bottom: 40px;
+    height: 50px;
 }
 .items{
     display: inline-block;
@@ -413,6 +414,8 @@ box::after{
 }
 .list__skill{
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .content__skill{
     display: flex;
@@ -704,6 +707,16 @@ footer{
     }
 }
 @media(max-width :764px){
+    .items{
+        display: block;
+        
+    }
+    header{
+        overflow: hidden;
+    }
+        
+    
+
     #banner{
         top:-140px;
     }
@@ -730,15 +743,19 @@ footer{
         font-size: 10px;
     }
     .about__img{
-        width: 250px;
-        height: 250px;
+        width: 220px;
+        height: 220px;
     }
     .myinfo{
         margin-left: 9px;
     }
     .myinfo h1 {
-        font-size: 18px;
+        font-size: 10px;
     }
+    .about__text{
+        font-size: 10px;
+    }
+
 
     .mycontanier{
     
@@ -746,5 +763,25 @@ footer{
     .box__content{
         width: 100%;
     }
+    .box{
+        float: left;
+        width: 85%;
+        margin: 20px 0px;
+    }
+    .list__skill{
+        flex-direction: column;
+        align-items: center;
+        /* margin-right: 10px; */
+    }
+    .wrapper{
+        display: block;
+    }
+    .card{
+        float: left;
+        width: 100%;
+        margin-top: 120px;
+    }
+
 }
+
 
