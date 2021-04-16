@@ -793,6 +793,10 @@ footer{
     #aboutme{
         margin-top: -239px;
     }
+    .info a:hover{
+        background: #fff;
+        color: #333;
+    }
 }
 
 
