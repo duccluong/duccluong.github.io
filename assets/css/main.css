@@ -784,13 +784,16 @@ footer{
     .card::before{
         /* top:14%;
         height: 151%; */
-        height: 121%;
+        height: 121% ;
     }
     .info{
        
     }
     #aboutme{
         margin-top: -239px;
+    }
+    .myinfo{
+        margin-top: -8px;
     }
 
 }
