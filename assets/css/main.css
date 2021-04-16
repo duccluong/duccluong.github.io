@@ -317,7 +317,7 @@ header{
 .box{
     position: relative;
     width: 33.3333% ;
-    height: 400px;
+    height: 410px;
     background-color: #111;
      display: flex; 
      justify-content: center; 
@@ -780,6 +780,17 @@ footer{
         float: left;
         width: 100%;
         margin-top: 120px;
+    }
+    .card::before{
+        /* top:14%;
+        height: 151%; */
+        height: 121%;
+    }
+    .info{
+       
+    }
+    #aboutme{
+        margin-top: -239px;
     }
 
 }
