@@ -125,6 +125,7 @@ header{
     justify-content: flex-start;
     align-items: center;
     transition: 0.5s;
+    margin-top: -90px;
 }
 .content .contentBX{
     position: relative;
@@ -411,6 +412,9 @@ box::after{
 }
 .text__content{
     text-align: center !important;
+}
+.list_items{
+    background-color: #21283a;
 }
 .list__skill{
     display: flex;
