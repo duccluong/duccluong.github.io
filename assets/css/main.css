@@ -728,8 +728,7 @@ footer{
     .contentBX{
         margin-top: 10px;
         font-size: 5px;
-        left : -90px
-        
+        left : -90px   
     }
     .myimg{
         width: 220px;
@@ -799,6 +798,7 @@ footer{
     }
     #aboutme{
         margin-top: -239px;
+        margin-bottom:100px ;
     }
     .info a:hover{
         background: #fff;
