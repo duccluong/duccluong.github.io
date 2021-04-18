@@ -711,27 +711,29 @@ footer{
     }
 }
 @media(max-width :764px){
-    .items{
-        display: block;
+     .items{
+        font-size: 14px;
         
     }
     header{
-        overflow: hidden;
-    }
+       margin: 0px;
+    } 
         
     
 
     #banner{
-        top:-140px;
+         top:-75px;
+        margin-bottom: 124px;
     }
     .contentBX{
-        font-size: 4.5px;
+        margin-top: 10px;
+        font-size: 9px;
         left : -90px
         
     }
     .myimg{
         width: 220px;
-        right: 0px;
+        right: 5px;
     }
     .sci{
         left: -90px;
@@ -784,12 +786,13 @@ footer{
     .card{
         float: left;
         width: 100%;
+        height: 100%;
         margin-top: 120px;
     }
     .card::before{
         /* top:14%;
         height: 151%; */
-        height: 121% ;
+        height: 100% ;
     }
     .info{
        
