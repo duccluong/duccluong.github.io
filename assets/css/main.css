@@ -712,7 +712,7 @@ footer{
 }
 @media(max-width :764px){
      .items{
-        font-size: 14px;
+        font-size: 11px;
         
     }
     header{
@@ -727,7 +727,7 @@ footer{
     }
     .contentBX{
         margin-top: 10px;
-        font-size: 9px;
+        font-size: 5px;
         left : -90px
         
     }
